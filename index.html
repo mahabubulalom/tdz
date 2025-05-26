@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechDevelopZone is your trusted source for top-rated Amazon tech products, including smart gadgets, home appliances, and the latest innovations. Explore reviews, features, and affiliate deals tailored for the USA market.">
+    <meta name="keywords" content="Amazon tech products, smart gadgets USA, best Amazon deals, home appliances, affiliate tech site, buy tech USA, smart home devices, latest tech gadgets, TechDevelopZone, USA Amazon affiliate">
+    <meta name="auther" content="TechDevelopZone">
+    <meta name="robots" content="index, follow">
+
+        <!-- Open Graph / Facebook -->
+        <!-- Open Graph -->
+    <meta property="og:title" content="TechDevelopZone | Top Trending Smart Gadgets" />
+    <meta property="og:description" content="Discover trending smart gadgets, top tech, and Amazon bestsellers in one place. Fast, smart, and innovative!" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/mahabubulalom/tdz/main/assets/bannar.png" />
+    <meta property="og:url" content="https://mahabubulalom.github.io/tdz/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TechDevelopZone" />
+
+    <!-- Optional preview image -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mahabubulalom.github.io/tdz/">
+    <meta name="twitter:title" content="TechDevelopZone | Best Amazon Tech Deals for USA">
+    <meta name="twitter:description" content="Explore smart tech gadgets, reviews, and deals on Amazon USA. Shop with confidence via TechDevelopZone.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/mahabubulalom/tdz/master/image/bannar.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Tech Develop Zone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        ul,li{
+            list-style-type:none;
+        }
+        h1,h2,h3,h4,h5,h6,p{
+            line-height: 0.8;
+        }
+
+    @media(max-width: 768px){
+        .container{
+            padding: 10px;
+        }
+        .nav-menu{
+            flex-direction: column;
+        }
+    }
+        
+    .carousel-wrapper {
+      overflow: hidden;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .product {
+      flex: 0 0 20%;
+      background: white;
+      border-radius: 0.5rem;
+      text-align: center;
+      padding: 1rem;
+      opacity: 0.5;
+      transform: scale(0.85);
+      transition: all 0.3s ease;
+    }
+
+    .product.active {
+      transform: scale(1.15);
+      opacity: 1;
+      z-index: 10;
+      box-shadow: 0 8px 15px rgb(0 0 0 / 0.2);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 0.375rem;
+      margin-bottom: 0.5rem;
+    }
+    </style>
+</head>
+<body class="max-w-7xl mx-auto bg-sky-200 ">
+    <section>
+        <div class="pb-2">
+            <div class="mx-auto max-w-7xl font-quicksand py-4">
+                <div class="p-8 bg-slate-100 rounded-3xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s">
+                    <div class=" mx-auto text-center">
+                        <div class="text-center mx-auto "> 
+                            <h2 class="text-4xl text-center font-medium text-black ">Welcome to <span class="text-4xl text-center font-medium text-cyan-600" >Tech Develop Zone</span></h2>
+                            <h2 class="font-medium text-3xl leading-10 font-quicksand text-cyan-600 py-2 ">Chouse your amazon products</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-center gap-3">
+                        <a href="https://www.facebook.com/share/1EpSR4j9dB/" target="_blank" class=" group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s">
+                                Facebook
+                            </span>
+                        </a>
+                        <a href="https://www.tiktok.com/@tech.develop.zone?_t=ZS-8wb3uMXYtIG&_r=1" target="_blank" class=" group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s">
+                                TikTok
+                            </span>
+                        </a>
+                        <a href="https://www.instagram.com/techdevelopzone?igsh=MXU2NDQwZTNmc3ZhaA==" target="_blank" class=" group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s">
+                                Instagram
+                            </span>
+                        </a>
+                        <a href="https://youtube.com/@techdevelopzone?si=z3csefc0EZdtw66M" target="_blank" class=" group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s">
+                                YouTube
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="pb-2">
+            <div class="mx-auto max-w-7xl font-quicksand py-4">
+                <div class="p-8 bg-slate-100 rounded-3xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s">
+                                        
+                    <h2 class="text-3xl text-center font-bold mb-8">🔥 Trending Products</h2>
+
+                    <div class="carousel-wrapper">
+                        <div id="carousel" class="carousel">
+                        <!-- Cloned last 2 for infinite effect -->
+                        <div class="product"><img src="image/Eufy E28 Omni Robot Vacuum And Mop Combo.jpg"><h3>Eufy E28 Omni Robot Vacuum And Mop Combo</h3></div>
+                        <div class="product"><img src="image/Bissell Little Green Carpet Cleaner.jpg"><h3>Bissell Little Green Carpet Cleaner</h3></div>
+                        <div class="product"><img src="image/Fullstar Vegetable Chopper.jpg"><h3>Fullstar Vegetable Chopper</h3></div>
+                        <div class="product"><img src="image/Dream x50 Ultra  Robot Vacuum.jpg"><h3>Dream x50 Ultra  Robot Vacuum</h3></div>
+                        <div class="product"><img src="image/Crock-Pot 20-Ounce Electric Lunch Box.jpg"><h3>Crock-Pot 20-Ounce Electric Lunch Box</h3></div>
+                        <div class="product"><img src="image/Minimalist Digital Clock.jpg"><h3>Minimalist Digital Clock</h3></div>
+                        <div class="product"><img src="image/Amazon Echo Dot.jpg"><h3>Amazon Echo Dot</h3></div>
+                        <div class="product"><img src="image/Amazon Fire Max 11.jpg"><h3>Amazon Fire Max 11</h3></div>
+
+                        <!-- Real products -->
+                        <div class="product"><img src="image/Eufy E28 Omni Robot Vacuum And Mop Combo.jpg"><h3>Eufy E28 Omni Robot Vacuum And Mop Combo</h3></div>
+                        <div class="product"><img src="image/Bissell Little Green Carpet Cleaner.jpg"><h3>Bissell Little Green Carpet Cleaner</h3></div>
+                        <div class="product"><img src="image/Fullstar Vegetable Chopper.jpg"><h3>Fullstar Vegetable Chopper</h3></div>
+                        <div class="product"><img src="image/Dream x50 Ultra  Robot Vacuum.jpg"><h3>Dream x50 Ultra  Robot Vacuum</h3></div>
+                        <div class="product"><img src="image/Crock-Pot 20-Ounce Electric Lunch Box.jpg"><h3>Crock-Pot 20-Ounce Electric Lunch Box</h3></div>
+                        <div class="product"><img src="image/Minimalist Digital Clock.jpg"><h3>Minimalist Digital Clock</h3></div>
+                        <div class="product"><img src="image/Amazon Echo Dot.jpg"><h3>Amazon Echo Dot</h3></div>
+                        <div class="product"><img src="image/Amazon Fire Max 11.jpg"><h3>Amazon Fire Max 11</h3></div>
+
+                        <!-- Cloned first 2 for infinite effect -->
+                        <div class="product"><img src="image/Eufy E28 Omni Robot Vacuum And Mop Combo.jpg"><h3>Eufy E28 Omni Robot Vacuum And Mop Combo</h3></div>
+                        <div class="product"><img src="image/Bissell Little Green Carpet Cleaner.jpg"><h3>Bissell Little Green Carpet Cleaner</h3></div>
+                        <div class="product"><img src="image/Fullstar Vegetable Chopper.jpg"><h3>Fullstar Vegetable Chopper</h3></div>
+                        <div class="product"><img src="image/Dream x50 Ultra  Robot Vacuum.jpg"><h3>Dream x50 Ultra  Robot Vacuum</h3></div>
+                        <div class="product"><img src="image/Crock-Pot 20-Ounce Electric Lunch Box.jpg"><h3>Crock-Pot 20-Ounce Electric Lunch Box</h3></div>
+                        <div class="product"><img src="image/Minimalist Digital Clock.jpg"><h3>Minimalist Digital Clock</h3></div>
+                        <div class="product"><img src="image/Amazon Echo Dot.jpg"><h3>Amazon Echo Dot</h3></div>
+                        <div class="product"><img src="image/Amazon Fire Max 11.jpg"><h3>Amazon Fire Max 11</h3></div>
+
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center gap-4 mt-6">
+                        <button id="prevBtn" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">← Prev</button>
+                        <button id="nextBtn" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Next →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="pb-28">
+            <div class="mx-auto max-w-7xl font-quicksand py-4">
+                <div class="p-8 bg-slate-100 rounded-3xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s">
+                    <div class="flex justify-center  mb-4 gap-3">
+                        <button onclick="filterByCategory('all')" class="category-btn group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s capitalize">
+                                all
+                            </span>
+                        </button>
+                        <button onclick="filterByCategory('electronics')" class="category-btn group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s capitalize">
+                                electronics
+                            </span>
+                        </button>
+                        <button onclick="filterByCategory('gadget')" class="category-btn group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s capitalize">
+                                gadget
+                            </span>
+                        </button>
+                        <button onclick="filterByCategory('home')" class="category-btn group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s capitalize">
+                                Home
+                        </button>
+                        <button onclick="filterByCategory('kitchen')" class="category-btn group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s">
+                                kitchen
+                            </span>
+                        </button>
+                    </div>
+                    <div id="product-container" class=" grid grid-cols-4 gap-4">
+                        
+                        <div id="product-item" class="product-card" data-category="electronics">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Roborock Z70 Robot Vacuum.jpg" alt="no images">
+                                    <a href="https://amzn.to/43KGSwU" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">Home</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Roborock Z70 Robot Vacuum</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="home">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Ring Video Doorbell pro 2.jpg" alt="no images">
+                                    <a href="https://amzn.to/3EQVdi1" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">Home</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Ring Video Doorbell pro 2</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="gadget">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Amazon Fire tv stick 4k.jpg" alt="no images">
+                                    <a href="https://amzn.to/3FnwPET" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">Gadget</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Amazon Fire tv stick 4k</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="electronics">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Amazon Echo Dot.jpg" alt="no images">
+                                    <a href="https://amzn.to/3SecEvY" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">electronics</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Amazon Echo Dot</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="electronics">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Eufy E28 Omni Robot Vacuum And Mop Combo.jpg" alt="no images">
+                                    <a href="https://amzn.to/3H5lABv" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">electronics</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Eufy E28 Omni Robot Vacuum And Mop Combo</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="home">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-6s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Queen Size 4-piece Cooling sheet set.jpg" alt="no images">
+                                    <a href="https://amzn.to/3S6F8Yu" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">Home</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Queen Size 4-piece Cooling sheet set</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="kitchen">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Crock-Pot 20-Ounce Electric Lunch Box.jpg" alt="no images">
+                                    <a href="https://amzn.to/3Fh0z6b" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">kitchen</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Crock-Pot 20-Ounce Electric Lunch Box</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="kitchen">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Fullstar Vegetable Chopper.jpg" alt="no images">
+                                    <a href="https://amzn.to/3GXGTVv" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">kitchen</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Fullstar Vegetable Chopper</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="electronics">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Bissell Little Green Carpet Cleaner.jpg" alt="no images">
+                                    <a href="https://amzn.to/4jYVM8H" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">electronics</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Bissell Little Green Carpet Cleaner</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="kitchen">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Stanley Quencher H2.0 (30 oz).jpg" alt="no images">
+                                    <a href="https://amzn.to/3EWk1VT" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">kitchen</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Stanley Quencher H2.0 (30 oz)</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="gadget">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Minimalist Digital Clock.jpg" alt="no images">
+                                    <a href="https://amzn.to/4jeC0EX" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">gadget</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Minimalist Digital Clock</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="gadget">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Philips Hue Smart Bulbs.jpg" alt="no images">
+                                    <a href="https://amzn.to/3GV53QA" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">gadget</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Philips Hue Smart Bulbs</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="electronics">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Dream x50 Ultra  Robot Vacuum.jpg" alt="no images">
+                                    <a href="https://amzn.to/3SkAiqK" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">electronics</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Dream x50 Ultra Robot Vacuum</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="electronics">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Roborock saros 10r.jpg" alt="no images">
+                                    <a href="https://amzn.to/43GUR6V" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">electronics</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Roborock saros 10r</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="gadget">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Apple AirTag.jpg" alt="no images">
+                                    <a href="https://amzn.to/4jTP8AE" target="_blank" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">gadget</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">4-piece Apple AirTag</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product-item" class="product-card" data-category="electronics">
+                            <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-3s overflow-hidden  ">
+                                <div class=" overflow-hidden w-full h-80 relative group">
+                                    <img class="w-full h-full object-cover transition-3s bg-cover align-middle" src="image/Amazon Fire Max 11.jpg" alt="no images">
+                                    <a href="https://amzn.to/3SdhedP" class="px-4 py-5 absolute bg-cyan-600 left-0 top-0 h-full w-full flex-col text-center  opacity-0 transition-3s group-hover:opacity-70">
+                                        <div class=" flex justify-between ">
+                                            <div class="flex align-center ">
+                                                <h3 class="font-bold text-yellow-400 uppercase my-auto text-lg ">electronics</h3>
+                                            </div>
+                                            <div class="flex my-auto">
+                                                <strong class="font-bold text-a13 text-blue-600 flex align-center">
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <i class="fa-solid fa-star text-base text-yellow-400 mr-0.5 my-auto"></i>
+                                                    <span class="p-1  bg-orange-500 rounded text-white font-bold">4.5</span>
+                                                    
+                                                </strong>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <h3 class="font-bold text-white capitalize cursor-pointer my-auto text-2xl">Amazon Fire Max 11</h3>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center  mt-8 ">
+                        <button id="prev-btn" class=" group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s">
+                                Prevew
+                            </span>
+                        </button>
+                        <span id="page-indicator" class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s px-4">
+                            page: 1
+                        </span>
+                        <button id="next-btn" class=" group py-2 shadow-lg border-cyan-600 border-2 px-8 cursor-pointer transition-3s rounded hover:bg-cyan-600">
+                            <span class="text-a16 text-cyan-600 font-semibold group-hover:text-white transition-3s">
+                                Next
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- resently delivery section end -->
+
+        
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/8abab984f3.js" crossorigin="anonymous"></script>
+</body>
+</html>
