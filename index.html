@@ -186,7 +186,7 @@
         <div class="pb-28">
             <div class="mx-auto max-w-7xl font-quicksand py-4">
                 <div class="p-8 bg-slate-100 rounded-3xl shadow-boxshadow hover:shadow-boxshadow2 transition-all duration-300">
-                    <div class="flex justify-center  mb-4 gap-3">
+                    <div class="flex justify-center  mb-4 gap-3 flex-wrap">
                         <button onclick="filterByCategory('all')" class="category-btn group py-2 shadow-lg border-b-cyan-600 border-b-2 px-2 cursor-pointer transition-all duration-300 rounded hover:bg-cyan-600">
                             <span class="text-16 text-cyan-600 font-semibold group-hover:text-white transition-all duration-300 capitalize">
                                 all
@@ -211,9 +211,19 @@
                                 kitchen
                             </span>
                         </button>
+                        <button onclick="filterByCategory('toy')" class="category-btn group py-2 shadow-lg border-b-cyan-600 border-b-2 px-2 cursor-pointer transition-all duration-300 rounded hover:bg-cyan-600">
+                            <span class="text-16 text-cyan-600 font-semibold group-hover:text-white transition-all duration-300">
+                                toy
+                            </span>
+                        </button>
+                        <button onclick="filterByCategory('fashion')" class="category-btn group py-2 shadow-lg border-b-cyan-600 border-b-2 px-2 cursor-pointer transition-all duration-300 rounded hover:bg-cyan-600">
+                            <span class="text-16 text-cyan-600 font-semibold group-hover:text-white transition-all duration-300">
+                                fashion
+                            </span>
+                        </button>
                     </div>
                     <!-- <div id="product-container" class=" grid grid-cols-4 gap-4"> -->
-                    <div id="product-container" class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div id="product-container" class="grid grid-cols-2 sm:gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                             
                         <div id="product-item" class="product-card" data-category="electronics">
                             <div class="my- border-2 bg-white rounded-xl shadow-boxshadow hover:shadow-boxshadow2 transition-all duration-300 overflow-hidden  ">
